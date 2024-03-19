@@ -1,7 +1,8 @@
-﻿#include <iostream>
-#include <stdexcept>
+#include <iostream>
 #include <iomanip>
 #include <algorithm>
+#include <stdexcept>
+
 
 class CustomArray {
 public:
@@ -125,10 +126,10 @@ public:
 
 private:
     static size_t minSize;
-    static size_t maxSize;
     double* mElements;
     size_t mAllocSize;
-    size_t mSize;
+    size_t mSize
+static size_t maxSize;
 
     void allocate(size_t allocSize) {
         if (allocSize > maxSize)
