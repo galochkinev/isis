@@ -1,6 +1,7 @@
-﻿#include <iostream>
-#include <vector>
+﻿#include <vector>
 #include <stdexcept>
+#include <iostream>
+
 
 class Array {
 private:
